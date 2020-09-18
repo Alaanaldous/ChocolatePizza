@@ -36,14 +36,16 @@ header nav h1{
     
 }
 
-hr{
+ #hr{
     width: 100%;
    
-    height: 100%;
+    height: 10px;
     background-image: url("../images/hr-img.png");
-
+    margin-top: 3%;
+    margin-bottom: 3%;
     
-}
+    
+} 
 
 .chocolate{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
@@ -70,3 +72,28 @@ span{
      width: 100%;
      margin-top: 20px;
  }
+
+#cb1{
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 50px;
+    position: relative;
+}
+
+#cb2{
+    
+    margin-left: 70%;
+    margin-top: 120px;
+    position: relative;
+    float: left;
+}
+
+#cball{
+    display: inline-block;
+    background-image: url(/images/list-bg.png);
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    width: 100%;
+    padding: 40px;
+    line-height: 30px;
+}
